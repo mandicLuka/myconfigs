@@ -1,0 +1,54 @@
+{
+    "python.testing.pytestEnabled": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "y"],
+            "after": ["v", "i", "w", "p", "y", "i", "w"]
+        },
+        {
+            "before": ["<leader>", "\""],
+            "after": ["b", "i", "\"", "<Esc>", "e", "a", "\"", "<Esc>" ] 
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "{"],
+            "after": ["d", "O", "{", "}", "<Esc>", "h", "a", "<Enter>", "<Esc>", "p", "v", "i", "{", "=", "d", "d", "k", "i" ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-k>": false,
+        "<C-n>": false
+    },
+    "editor.lineNumbers": "relative",
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "remote.containers.enableContainersExplorer": false,
+    "update.mode": "none",
+    "update.enableWindowsBackgroundUpdates": false,
+    "dotnet-test-explorer.runInParallel": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+    //"editor.lineNumbers":"interval"
+ }

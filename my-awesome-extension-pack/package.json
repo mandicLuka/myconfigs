@@ -1,0 +1,26 @@
+{
+    "name": "my-awesome-extension-pack",
+    "displayName": "My Awesome Extension Pack",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "ms-python.python",
+	    "vscodevim.vim",
+	    "ms-azuretools.vscode-docker",
+        "ms-dotnettools.csharp",
+        "jcbuisson.vue",
+        "firefox-devtools.vscode-firefox-debug",
+        "ms-vscode-remote.remote-containers"
+    ],
+    "repository":{
+        "url": "https://github.com/mandicLuka/ScyC",
+        "type": "git"
+    },
+    "publisher": "mandicLuka"
+}
