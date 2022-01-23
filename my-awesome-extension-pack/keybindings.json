@@ -7,5 +7,21 @@
     {
         "key": "ctrl+shift+tab",
         "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "alt+pagedown",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+pageup",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "workbench.action.terminal.newInActiveWorkspace",
+        "when": "terminalFocus"
     }
+
 ]

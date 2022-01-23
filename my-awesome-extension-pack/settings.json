@@ -35,7 +35,6 @@
         "<C-n>": false
     },
     "editor.lineNumbers": "relative",
-    "window.zoomLevel": 0,
     "explorer.confirmDelete": false,
     // "editor.defaultFormatter": "esbenp.prettier-vscode",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
@@ -49,6 +48,45 @@
     "dotnet-test-explorer.runInParallel": true,
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
-    }
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        },
+        {
+            "viewType": "jupyter-notebook",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.pythonPath": "C:\\Users\\lukam\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.remoteServerListenOnSocket": true,
+    "remote.SSH.path": "C:\\Program Files\\Git\\usr\\bin\\ssh.exe",
+    "remote.SSH.remotePlatform": {
+        "proteus": "linux",
+        "ml_machine": "windows",
+        "vis": "linux",
+        "ml_server_wsl": "linux"
+    },
+    "cmake.configureOnOpen": true,
+    "python.languageServer": "Jedi",
+    "matlab.matlabpath": "C:\\Program Files\\MATLAB\\R2021a\\bin\\matlab.exe",
+    "matlab.mlintpath": "C:\\Program Files\\MATLAB\\R2021a\\toolbox\\matlab\\codetools\\mlint.m",
+    "testMate.cpp.log.userId": "2cd9999b4f3fa8a9a02315fbd6b7e75be8a5fc31",
+    "testMate.cpp.log.logSentry": "enable",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "yaml.schemas": {
+        "file:///c%3A/Users/lukam/.vscode/extensions/atlassian.atlascode-2.10.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.bitbucket.enabled": true,
+    "redhat.telemetry.enabled": false
     //"editor.lineNumbers":"interval"
  }
