@@ -1,4 +1,5 @@
 {
+    "security.workspace.trust.untrustedFiles": "open",
     "python.testing.pytestEnabled": true,
     "vim.easymotion": true,
     "vim.incsearch": true,
@@ -36,8 +37,8 @@
     },
     "editor.lineNumbers": "relative",
     "explorer.confirmDelete": false,
-    // "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+       // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -49,22 +50,14 @@
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        },
-        {
-            "viewType": "jupyter-notebook",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
     "python.pythonPath": "C:\\Users\\lukam\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "C_Cpp.updateChannel": "Insiders",
     "remote.SSH.showLoginTerminal": true,
     "remote.SSH.remoteServerListenOnSocket": true,
     "remote.SSH.path": "C:\\Program Files\\Git\\usr\\bin\\ssh.exe",
@@ -72,10 +65,11 @@
         "proteus": "linux",
         "ml_machine": "windows",
         "vis": "linux",
-        "ml_server_wsl": "linux"
+        "ml_server_wsl": "linux",
+        "labust_ml": "linux"
     },
     "cmake.configureOnOpen": true,
-    "python.languageServer": "Jedi",
+    "python.languageServer": "Pylance",
     "matlab.matlabpath": "C:\\Program Files\\MATLAB\\R2021a\\bin\\matlab.exe",
     "matlab.mlintpath": "C:\\Program Files\\MATLAB\\R2021a\\toolbox\\matlab\\codetools\\mlint.m",
     "testMate.cpp.log.userId": "2cd9999b4f3fa8a9a02315fbd6b7e75be8a5fc31",
@@ -87,6 +81,7 @@
         "file:///c%3A/Users/lukam/.vscode/extensions/atlassian.atlascode-2.10.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
     },
     "atlascode.bitbucket.enabled": true,
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
     //"editor.lineNumbers":"interval"
- }
+}
